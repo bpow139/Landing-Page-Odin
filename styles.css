@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.left-box {
+    width: 300px;
+}
+
+.left-box h3 {
+    color: #f4f4f4;
+}
+
+.rocket {
+    height: 100px;
+    width: auto;
+}
+
+.brain {
+    height: 300px;
+    width: 300px;
+}
