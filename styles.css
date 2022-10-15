@@ -1,3 +1,7 @@
+* {
+    font-family: "roboto";
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-bottom: 100px;
 
 }
 
@@ -41,16 +46,54 @@ a {
     width: 300px;
 }
 
-.left-box h3 {
+.left-box h1 {
     color: #f4f4f4;
+}
+
+.left-box p {
+    color: white;
+    font-size: smaller;
 }
 
 .rocket {
     height: 100px;
     width: auto;
+
 }
 
 .brain {
     height: 300px;
     width: 300px;
+}
+
+button {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 45px;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-group img {
+    width: 75px;
+    height: auto;
+    padding: 20px;
+    border: 4px #3882F6 solid;
+    border-radius: 18px;
+}
+
+.credit {
+    color: #3882F6;
 }
