@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "roboto";
+    margin: 0;
 }
 
 .header {
@@ -175,6 +176,7 @@ button {
     background-color: #1F2937;
     color: #E5E7EB;
     align-items: center;
+    padding: 15px;
 }
 
 .footer a {
